@@ -1,5 +1,4 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
 var ListItem = require('./listitem.jsx');
 var $ = require('jquery');
 
@@ -39,11 +38,11 @@ module.exports = React.createClass({
     return (
       <tbody>
           {
-              self.state.filmObjects.map(function(filmobj,index) {
-                return (
-                    <ListItem filmobj= {filmobj} counter={index} key={index}/>
-                  )
-              })
+            self.state.filmObjects.map(function(filmobj,index) {
+              return (
+                  <ListItem filmobj= {filmobj} counter={index} key={index}/>
+                )
+            })
           }
       </tbody>
     );

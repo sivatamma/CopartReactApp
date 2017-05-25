@@ -1,13 +1,13 @@
 var React = require('react');
-var ReactDOM = require('react-dom');
+
 module.exports = React.createClass({
   getInitialState: function() {
     return {
-      filmobj: this.props.filmobj
+      filmobj: {}
     };
   },
   componentWillMount: function() {
-
+    this.state.filmobj = this.props.filmobj;
   },
   render: function() {
     return (
