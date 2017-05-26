@@ -29,6 +29,10 @@ module.exports = React.createClass({
           <th>Name</th>
           <th>Birth Year</th>
           <th>Gender</th>
+          <th>Hair Color</th>
+          <th>Skin Color</th>
+          <th>Height</th>
+          <th>Mass</th>
         </tr>
       </thead>
     )

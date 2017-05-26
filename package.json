@@ -1,14 +1,16 @@
 {
-  "name": "copartreactapp",
+  "name": "jqueryversionsapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
+  "description": "test app for co-browse product",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.2.1"
-  }
+  "author": "teamANTS",
+  "license": "ISC"
 }

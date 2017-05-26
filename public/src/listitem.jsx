@@ -16,6 +16,10 @@ module.exports = React.createClass({
         <td>{this.state.filmobj.name}</td>
         <td>{this.state.filmobj.birth_year}</td>
         <td>{this.state.filmobj.gender}</td>
+        <td>{this.state.filmobj.hair_color}</td>
+        <td>{this.state.filmobj.skin_color}</td>
+        <td>{this.state.filmobj.height}</td>
+        <td>{this.state.filmobj.mass}</td>
       </tr>
     )
   }
