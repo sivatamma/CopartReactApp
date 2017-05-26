@@ -12,14 +12,22 @@ module.exports = React.createClass({
 
   },
   render: function() {
-    return (
-      <div>
-        <table className="table">
-          {this.tableHeader()}
-          {this.tableBody()}
-        </table>
-      </div>
-    );
+    if(!this.state.filmObjects.length) {
+      return (
+        <div>
+          <h5>Loading ... </h5>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <table className="table">
+            {this.tableHeader()}
+            {this.tableBody()}
+          </table>
+        </div>
+      );
+    }
   },
   tableHeader: function() {
     return (
